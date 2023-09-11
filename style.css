@@ -1,63 +1,128 @@
-nav ul
+.navbar
 {
-    margin-left:auto;
-    justify-content: space-between;
+    background-color: #404eed;
+    font-weight: 600;
 }
-.box
+
+.navbar-nav
 {
-   min-height: 250px;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   transition: 0.5s;
-   background-color: white;
-   border-radius: 8px;
+    margin: 0 auto;    
 }
-.box:hover
+
+.nav-link
 {
-    border: 0;
-    box-shadow:  rgb(255 36 36 / 87%) 0px 7px 29px 0px;
+    margin-left: 25px;
+    transition: text-decoration 0.2s;
 }
-@media screen and (min-width: 768px) and (max-width: 1400px)
+
+.nav-link:hover
 {
-    .mt-7
-    {
-        margin-top: 140px !important;
-    }
-    #Header-content
-    {
-        padding: 210px 0 !important;
-        margin-left: -100px !important;   
-    }
-    #women-image
-    { 
-        position: relative;
-        top: 49px;
-        left: 234px;
-        z-index: -1;
-    }
-    #try-now-arrow
-    {
-        position: relative;
-        left: 303px;
-        border: 2px solid white;
-        border-radius: 80px;
-        width: 54px;
-        background-color: white;
-        height: 52px;
-        top: 23px;
-    }
-    #last-arrow 
-    {
-        top: -184px !important;
-        position: relative !important;
-        left: 229px !important;
-    }
-}
-#Header-content
+    text-decoration: underline;
+} 
+
+.button 
 {
-    padding: 60px 0;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 17px;
+    border: none;
+    font-size: 14px;
+    transition: box-shadow 0.3s; 
+    margin-left: 19px;
 }
+
+.button:hover
+{
+    color:#404eed;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.308);
+}
+
+/* Main Section */
+
+.section-padding-top
+{
+    z-index: 1;
+    padding: 9rem 0;
+}
+
+.heading h1
+{
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.heading p
+{
+    margin-top: 1.8rem;
+    line-height: 1.625;
+    font-size: clamp(12px,1,5vw);
+}
+
+.main-section-images{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+    background-color: #404eed;
+}
+
+.hero-image1
+{
+    margin-left: -1280px;
+    display: block;
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+}
+
+.hero-image2
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: none;
+    margin-left: -1030px;
+    z-index: 1;
+}
+
+.hero-image3
+{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 50%;
+    margin-left: 370px;
+}
+
+.line
+{
+    opacity: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
